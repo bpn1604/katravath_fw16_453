@@ -1,0 +1,89 @@
+.headings
+{
+  background-color:#1a9fd9;
+  color: white;
+  padding-bottom: 7px;
+  font-size: 18px;
+  width: 120px;
+  height: 20px;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+}
+#Setting
+{
+  background-color: #72a8af;
+}
+#login
+{
+  background-color: #f78e1a;
+}
+#CotactUS
+{
+  background-color:  #e73949;
+}
+#Search
+{
+  background-color: #6ba03f;
+}
+#Help
+{
+  background-color:  #605d9e;
+}
+
+#tags
+{
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 40px;
+
+}
+#main
+{
+  margin-left: 10%;
+}
+#btndiv
+{
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.deletebutton
+{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  
+  border:  10px solid;
+  border-radius:50px ;
+}
+#input
+{
+  
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+#inputdiv
+{
+
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+#btn
+{
+  font-size: 30px;
+  width: 50px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
