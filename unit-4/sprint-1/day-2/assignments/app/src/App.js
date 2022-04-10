@@ -1,13 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './componetes/Counter';
+import './Styles/Styles.css'
 
-function App() {
+import { Component } from 'react';
+
+
+import Counter from './Day2/Counter';
+
+
+class App extends Component {
+  render ()
+  {
   return (
-    <div className="App">
-     <Counter/>
+    <div id='main'> 
+  
+   
+
+   <Counter/>
+   
+  
+  
     </div>
   );
+  
+
+  }
+  
 }
+
+  
+
 
 export default App;
