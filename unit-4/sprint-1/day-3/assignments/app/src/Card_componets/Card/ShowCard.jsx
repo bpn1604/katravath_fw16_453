@@ -3,7 +3,8 @@
 import React, { Component } from 'react'
 
 
-import { Card, CardImg, CardImgOverlay, CardText, CardBody,CardTitle } from 'reactstrap';
+
+// import { Card, CardImg, CardImgOverlay, CardText, CardBody,CardTitle } from 'reactstrap';
 
 
 class  ShowCard extends Component {
@@ -12,21 +13,30 @@ class  ShowCard extends Component {
         const CardData=this.props.data.map((item)=>
         {
             return (
-                <div  className="">
-                <div key={item.id}>
-                  <img className='logos' src={item.logo} alt={item.name} />
+                <div  key={item.id}>
+                <div className="card" >
+                    <div  className='deatails'>
+                    <p>{item.date}</p>
+                    <p id='casseStudy'>{item.CaseStudy}</p>
+                    <h1>{item.name}</h1>
+                    <h4>{item.Desktop}</h4>
+                    </div>
+                 
                   <div>
-                      <p>{item.name}</p>
+                  <img className='logos' src={item.logo} alt={item.name} />
+                 
+
                   </div>
+
                 </div>
               </div>
                 );
         });
         return (
           <div className="container">
-              <div className="row">
+             
                   {CardData}
-              </div>
+            
               
           </div>
       );
