@@ -17,6 +17,7 @@ function Counter() {
     }
     const handleDouble=()=>
     {
+        
         setCount(count*2)
     }
     const handleReset=()=>
