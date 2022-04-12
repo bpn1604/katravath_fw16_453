@@ -26,8 +26,8 @@ class App extends Component
 render(){
 return (
   <>
-  <ShowCard data={this.state.data}/>
-  {/* <TodoList/> */}
+  {/* <ShowCard data={this.state.data}/> */}
+  <TodoList/>
   </>
 )
 
