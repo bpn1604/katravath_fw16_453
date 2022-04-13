@@ -1,15 +1,17 @@
+import "./App.css";
+import "./Styles/Styles.css";
 
-import './App.css';
-
-import { useState } from 'react';
+import { useState } from "react";
+import TodoList from "./day-1/TodoList";
+import Todo from "./day-1/Todo";
 
 function App() {
-  const [showCounter,setShowCounter]=useState(true)
+  const [showCounter, setShowCounter] = useState(true);
   return (
     <div className="App">
-      <button onClick={setShowCounter(!setShowCounter)}></button>
-     <Counter />
-     
+      {/* <button onClick={setShowCounter(!setShowCounter)}></button> */}
+      {/* <Counter/> */}
+      <Todo/>
     </div>
   );
 }

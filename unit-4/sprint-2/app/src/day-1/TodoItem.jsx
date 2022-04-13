@@ -1,14 +1,20 @@
 import React from 'react'
 
 const  Todoitem = (props) => {
-console.log(props)
 
-const {title,id,status,handleRemove,color} = props;
+
+const {name,id,email,handleRemove,color} = props;
+
+
+
+
+
+
 
 
   return (
     <div id="btndiv">
-        <h1    >{title}</h1>
+        <h1>{name}</h1>
         <button style={{color}} className='deletebutton' onClick={()=>handleRemove(id)}></button>
     </div>
   )
