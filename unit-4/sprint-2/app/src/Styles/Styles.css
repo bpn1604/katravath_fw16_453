@@ -57,12 +57,12 @@ margin-left: 40%;
 .deletebutton
 {
   text-align: center;
-  width: 50px;
+color: black;
   height: 50px;
   margin-top: 20px;
   
   border:  10px solid;
-  border-radius:50px ;
+  border-radius:5px ;
 }
 #input
 {
