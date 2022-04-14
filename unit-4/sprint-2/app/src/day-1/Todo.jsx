@@ -14,6 +14,7 @@ function Todo() {
     let newTodo = todo.filter((item) => item.id != id);
     setTodo(newTodo);
   };
+  
   useEffect(() => {
     const func = async () => {
       try {

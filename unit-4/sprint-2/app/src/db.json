@@ -1,14 +1,10 @@
 {
   "todo": [
     {
-      "name": "prabhu",
+      "name": "Rathod",
+      "name2": "Rathod",
       "completed": false,
       "id": 1
-    },
-    {
-      "name": "rushi",
-      "completed": false,
-      "id": 3
     }
   ]
 }
