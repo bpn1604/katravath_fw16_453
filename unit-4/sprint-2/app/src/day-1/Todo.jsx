@@ -20,7 +20,7 @@ function Todo() {
       try {
         let res = await fetch("http://localhost:3000/todo");
         let data = await res.json();
-        // console.log(data);
+         console.log(data);
         setTodo(data);
       } catch (e) {
         console.log(e);

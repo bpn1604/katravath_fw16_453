@@ -2,7 +2,7 @@ import React from "react";
 
 const Todoitem = (props) => {
   const { name, id, email, handleRemove, color } = props;
-
+ 
   return (
   
     <div id="btndiv">
