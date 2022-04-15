@@ -1,0 +1,102 @@
+#btndiv
+{
+  
+    /* border: solid; */
+   padding: 2px;
+    width: 430px;
+    height: 223px;
+    background-color: #f3f3f3;
+    border-radius: 2px;
+}
+
+
+.resto_details_menu
+{
+    
+    height: 150px;
+    display: flex;
+    /* border: solid 2px purple; */
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+    /* position: relative; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+
+.img_width
+{
+    width: 100px;
+    height: 120px;
+}
+.resto_name_div
+{
+    
+    line-height: 12px;
+ 
+    width: 300px;
+    height: 100%;
+    /* border:  2px solid yellow; */
+}
+.name
+{
+    
+    color: brown;
+    margin-top: 0px;
+}
+.cuisines
+{
+    color: gray;
+   
+  font-size: 12px;
+}
+.address
+{
+    
+    font-size: 12px;
+}
+.payment
+{
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px; 
+     /* border: solid; */
+    margin: auto;
+   margin-top: 5px;
+    width: auto;
+    border-radius: 5px;
+   background-color: white;
+    height: 30px;
+    justify-content: left;
+    text-align: right;
+}
+.payment>button
+{
+    background-color: #e9f4ec;
+    color: #7bb67e;
+    height: inherit;
+    border: none;
+}
+.rating
+{
+    border-radius: 5px;
+    width: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 10px;
+    color: white;
+    font-weight:700;
+}
+#rating_div
+{
+    width: 80px;
+   text-align: center;
+    
+   
+}
+.votes
+{
+    color: black;
+    font-size: 12px;
+
+}
