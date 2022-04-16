@@ -22,7 +22,7 @@ function RestroAppend() {
   }, []);
   //console.log(todo)
 
-  useEffect(()=>{
+
     const handleFourStar=(e)=>
   {
 
@@ -56,7 +56,7 @@ console.log(num)
 
 
 
-  })
+
   
 
 
