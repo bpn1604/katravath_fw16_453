@@ -3,9 +3,8 @@ import React from 'react'
 import styles from './restro.module.css'; 
 
 function RestroShow(props) {
-     const { name, currency, cuisines, featured_image,id,average_cost_for_two } = props.restaurant;
-     const { aggregate_rating,rating_color,rating_text,votes} = props.restaurant.user_rating;
-     const {address,city,zipcode,city_id} = props.restaurant.location;
+     const { name, currency, cuisines, featured_image,id,average_cost_for_two ,address,city,zipcode,city_id,aggregate_rating,rating_color,rating_text,votes} = props.restaurant;
+
     // console.log(votes);
 
   return (

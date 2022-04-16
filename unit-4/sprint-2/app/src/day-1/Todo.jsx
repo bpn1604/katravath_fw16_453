@@ -5,8 +5,8 @@ import TodoList from "./TodoList";
 function Todo() {
   const [todo, setTodo] = React.useState([]);
 
-  const onAdd = (todos) => {
-    setTodo([...todo, todos]);
+  const onAdd = (data) => {
+    setTodo([...todo, data]);
   };
   const onDelete = (id) => {
     // console.log(id);
@@ -53,11 +53,13 @@ function Todo() {
   return (
     <>
       <TodoList onAdd={onAdd} />
-      {todo.map((todo, index) => {
+
+
+      {todo.map((ele, index) => {
         return (
           <Todoitem
             color={index % 2 == 0 ? "#87ffc5" : "#7f7bff"}
-            key={todo.id}
+            key={ele.id}
             {...todo}
             handleRemove={deleteTodo}
           />

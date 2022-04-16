@@ -7,9 +7,9 @@ import Todo from "./Todo";
 function TodoList({ onAdd, onDelete }) {
   const [task, setTask] = React.useState("");
 
-  const [todo, setTodo] = React.useState([]);
 
-  const postTodo = async (value,value2) => {
+
+  const postTodo = async (value) => {
     // console.log(value)
     try {
       let res = await fetch("http://localhost:3000/todo", {
