@@ -70,34 +70,7 @@ console.log(num)
        
     </div>
 
-    {/* <div id='container'>
-      
-      {todos.map((todo, index) => {
-        return (
-            <RestroShow
-          
-            color={index % 2 == 0 ? "#87ffc5" : "#7f7bff"}
-            key={todo.restaurant.id}
-            {...todo}
-           
-          />
-        );
-      })}
-      </div> */}
-      {/* <div id='container'>
-      
-      {todos.map((todo, index) => {
-        return (
-            <RestroShow
-          
-            color={index % 2 == 0 ? "#87ffc5" : "#7f7bff"}
-            key={todo.restaurant.id}
-            {...todo}
-           
-          />
-        );
-      })}
-      </div> */}
+    
 
    <div id='container'>
       
