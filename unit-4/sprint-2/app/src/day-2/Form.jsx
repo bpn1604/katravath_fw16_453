@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Form() {
+function Form({onTable}) {
   const [formData, setFormData] = useState({
     // showPassword: false,
   });
@@ -26,9 +26,34 @@ function Form() {
       });
     }
   };
+ 
+  const postTodo = async (value) => {
+     console.log(value)
+    try {
+      let res = await fetch(`http://localhost:3000/form1`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          value,
+         
+        }),
+      });
+      let data = await res.json();
+      onTable(data)
+    
+      //handleClick(data)
+    } catch (e) {
+      console.log(e);
+    }
+  };
+ 
   const haddleSubmit = (e) => {
     e.preventDefault();
-    console.log(setFormData)
+    var value=formData
+    if(value){
+    postTodo(value)
+    }
+    
   };
   return (
     <form onSubmit={haddleSubmit}>

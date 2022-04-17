@@ -15,8 +15,10 @@ const Timer = () =>{
                 setSeconds(0);
             }
         },10)
+
         return () =>clearInterval(timer);
     });
+    
     const restart = () =>{
         setSeconds(0);
         setMinutes(0);

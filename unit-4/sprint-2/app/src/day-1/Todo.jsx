@@ -39,10 +39,7 @@ function Todo() {
         method: "DELETE",
         headers: { "content-type": "application/json" },
       });
-      //let data = await res.json();
-      //  console.log(data)
-      //onAdd(data)
-      //handleClick(data)
+     
 
       onDelete(id);
     } catch (e) {
@@ -55,11 +52,11 @@ function Todo() {
       <TodoList onAdd={onAdd} />
 
 
-      {todo.map((ele, index) => {
+      {todo.map((todo, index) => {
         return (
           <Todoitem
             color={index % 2 == 0 ? "#87ffc5" : "#7f7bff"}
-            key={ele.id}
+            key={todo.id}
             {...todo}
             handleRemove={deleteTodo}
           />

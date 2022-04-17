@@ -1,0 +1,31 @@
+{
+  "form1": [
+    {
+      "value": {
+        "name": "RATHOD RADHIKA GOPAL",
+        "password": "665465",
+        "Age": "36",
+        "birthday": "2022-04-21",
+        "file": "A121306472C9.pdf"
+      },
+      "id": 1
+    },
+    {
+      "value": {
+        "name": "Sagar Rathod",
+        "password": "6546",
+        "Age": "25",
+        "birthday": "2022-04-29",
+        "file": "KATRAVATH_PRABHU_WEB_16.pdf"
+      },
+      "id": 2
+    },
+    {
+      "value": {
+        "name": "RATHOD RADHIKA GOPAL",
+        "file": "KATRAVATH (5).pdf"
+      },
+      "id": 3
+    }
+  ]
+}
