@@ -20,7 +20,7 @@ function App() {
       {/* <Form/> */}
 
        {/* <Timer /> */}
-      {/* <AppendInTable /> */}
+      <AppendInTable />
 
 
 <Example />
