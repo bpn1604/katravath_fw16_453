@@ -30,10 +30,10 @@ function AppendInTable() {
           <tr>
             <th>Sl.no.</th>
             <th>Name</th>
-            <th>password</th>
-            <th>Age</th>
-            <th>birthday</th>
-            <th>file</th>
+            <th>Address</th>
+            <th>Salary</th>
+           <th>Department</th>
+            <th>Maritus Stutus</th>
             
           </tr>
         </thead>
@@ -43,10 +43,10 @@ function AppendInTable() {
               <tr key={house.id} className="houseDetails">
                 <td className="houseId">{house.id}</td>
                 <td className="houseName">{house.value.name} </td>
-                <td className="ownersName">{house.value.password}</td>
-                <td className="address">{house.value.Age}</td>
-                <td className="areaCode">{house.value.birthday}</td>
-                <td className="rent">{house.value.file}</td>
+                <td className="ownersName">{house.value.Address}</td>
+                <td className="address">{house.value.Salary}</td>
+                <td className="address">{house.value.Department}</td>
+                <td className="rent">{house.value.married ? "married":"Unmarried"}</td>
 
               </tr>
             );

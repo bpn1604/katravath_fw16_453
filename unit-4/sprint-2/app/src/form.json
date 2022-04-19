@@ -2,77 +2,36 @@
   "form1": [
     {
       "value": {
-        "name": "RATHOD RADHIKA GOPAL",
-        "password": "665465",
-        "Age": "36",
-        "birthday": "2022-04-21",
-        "file": "A121306472C9.pdf"
+        "name": "Prabhu Katravath",
+        "": "",
+        "Department": "Sr Software",
+        "Address": "1C Naylor Road, Off Mangaldas Road, Sangamvadi, 411001 Pune, India ",
+        "Salary": "40000"
       },
       "id": 1
     },
     {
       "value": {
+        "Unmarried": "Unmarried",
         "name": "Sagar Rathod",
-        "password": "6546",
-        "Age": "25",
-        "birthday": "2022-04-29",
-        "file": "KATRAVATH_PRABHU_WEB_16.pdf"
+        "Department": "Account",
+        "married": "married",
+        "Address": "Sr .53/jogeshwary Colony,kalepadal,hadpsar,pune,411028",
+        "Salary": "10000"
       },
       "id": 2
     },
     {
       "value": {
-        "name": "RATHOD RADHIKA GOPAL",
-        "file": "KATRAVATH (5).pdf"
+        "Unmarried": "Unmarried",
+        "name": "Sagar Rathod",
+        "Department": "Account",
+        "married": "married",
+        "Address": "Sr .53/jogeshwary Colony,kalepadal,hadpsar,pune,411028",
+        "Salary": "10000"
       },
       "id": 3
-    },
-    {
-      "value": {
-        "name": "RATHOD RADHIKA GOPAL",
-        "password": "nbnm",
-        "showPassword": true,
-        "Age": "52",
-        "birthday": "2022-04-14",
-        "file": "u5c2-master.zip"
-      },
-      "id": 4
-    },
-    {
-      "value": {},
-      "id": 5
-    },
-    {
-      "value": {
-        "name": "Sagar Rathod",
-        "password": "52266",
-        "Age": "63",
-        "birthday": "2022-04-21",
-        "file": "MOCK_DATA.json"
-      },
-      "id": 6
-    },
-    {
-      "value": {
-        "name": "SAPKAL SWAPNALI DASHARATH",
-        "password": "566622",
-        "showPassword": true,
-        "Age": "58",
-        "birthday": "2022-04-21",
-        "file": "MOCK_DATA.json"
-      },
-      "id": 7
-    },
-    {
-      "value": {
-        "name": "SAPKAL SWAPNALI DASHARATH",
-        "password": "566622",
-        "showPassword": true,
-        "Age": "58",
-        "birthday": "2022-04-21",
-        "file": "MOCK_DATA.json"
-      },
-      "id": 8
     }
+    
   ]
 }
