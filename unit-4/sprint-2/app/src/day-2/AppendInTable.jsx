@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Form from "./Form";
 
 
 
 function AppendInTable() {
     const [formData, setfrom] = React.useState([]);
+    const [show,setShow]=useState(true)
     const onAdd = (data) => {
         setfrom([...formData, data]);
       };
@@ -24,8 +25,13 @@ function AppendInTable() {
       }, []);
   return (
    <>
-   <Form onAdd={onAdd}/>
+<button onClick={()=>setShow(!show)}>
+  {show?"Show Form":"Hide Form"}
+</button>
+{show?  " ":<Form onAdd={onAdd}/>}
+ 
   <table className="table" border="1">
+
         <thead>
           <tr>
             <th>Sl.no.</th>
