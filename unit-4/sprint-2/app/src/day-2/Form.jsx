@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Form({onTable}) {
+function Form({onAdd}) {
   const [formData, setFormData] = useState({
     // showPassword: false,
   });
@@ -39,7 +39,7 @@ function Form({onTable}) {
         }),
       });
       let data = await res.json();
-      onTable(data)
+      onAdd(data)
     
       //handleClick(data)
     } catch (e) {

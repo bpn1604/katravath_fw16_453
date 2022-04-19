@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import { nanoid } from "nanoid";
+
 
 import TodoItem from "./TodoItem";
 import Todo from "./Todo";
 
-function TodoList({ onAdd, onDelete }) {
+function TodoList({ onAdd }) {
   const [task, setTask] = React.useState("");
 
 

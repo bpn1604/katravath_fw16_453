@@ -29,19 +29,13 @@ function RestroAppend() {
 var num=e.target.value;
 console.log(num)
 
-      // if(num===4)
-      // {
-      //  let newTodo = todo.filter((item) => (item.restaurant.aggregate_rating>num) && (item.restaurant.aggregate_rating<num+1)  );
-      //   console.log(newTodo)
-      //   return setTodo(newTodo)
-      // }
-          //  console.log(num);
+      
           if(num==4)
           {
             let newTodo = todo.filter((item) => (item.restaurant.aggregate_rating>num) && (item.restaurant.aggregate_rating<num+1)  );
             return setTodo(newTodo) 
           }
-           if(num==3)
+           else if(num==3)
           {
             let newTodo1 = todo.filter((item) => (item.restaurant.aggregate_rating>=num) && item.restaurant.aggregate_rating<num+1  );
             return setTodos(newTodo1)  
@@ -75,6 +69,18 @@ console.log(num)
    <div id='container'>
       
       {todo.map((todo, index) => {
+        return (
+            <RestroShow
+          
+            color={index % 2 == 0 ? "#87ffc5" : "#7f7bff"}
+            key={todo.restaurant.id}
+            {...todo}
+           
+          />
+        );
+      })}
+
+{todos.map((todo, index) => {
         return (
             <RestroShow
           
