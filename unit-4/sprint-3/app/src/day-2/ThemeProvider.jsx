@@ -10,7 +10,7 @@ export const ThemeProvider=({children})=>
 
     const toggleTheme=()=>
     {
-        setTheme(theme==="white"?"black":"white");
+        setTheme(theme==="white"?"gray":"white");
     }
     return (
     <ThemeContext.Provider value={[theme,toggleTheme]}>
