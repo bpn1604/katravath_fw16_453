@@ -71,6 +71,16 @@
         "Salary": "50000"
       },
       "id": 7
+    },
+    {
+      "value": {
+        "name": "Sagar Rathod",
+        "married": "married",
+        "Department": "Data Analaty",
+        "Address": " Law College Road 13 Damle Path, Off Law College Road, 411004 Pune,",
+        "Salary": "52200"
+      },
+      "id": 8
     }
   ]
 }
