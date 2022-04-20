@@ -51,6 +51,26 @@
         "Salary": "50000"
       },
       "id": 5
+    },
+    {
+      "value": {
+        "name": "RATHOD RADHIKA GOPAL",
+        "married": "married",
+        "Department": "manager",
+        "Address": "1C Naylor Road, Off Mangaldas Road, Sangamvadi, 411001 Pune, India ",
+        "Salary": "10000"
+      },
+      "id": 6
+    },
+    {
+      "value": {
+        "name": "arfeen",
+        "Unmarried": "Unmarried",
+        "Department": "Sr Software",
+        "Address": "kolkata",
+        "Salary": "50000"
+      },
+      "id": 7
     }
   ]
 }
