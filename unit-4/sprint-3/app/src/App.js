@@ -23,7 +23,7 @@ function App() {
   //  </Border>
   //  </>
 <>
-<ButtonStyledCom />
+{/* <ButtonStyledCom /> */}
 {/* <CardForm /> */}
 </>
 
