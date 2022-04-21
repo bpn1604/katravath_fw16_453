@@ -21,10 +21,10 @@ function App() {
      
   //  </Border>
   //  </>
-{/* <Bdiv>
-  <CreaditCard />
+<>
+
 <CardForm />
-</Bdiv> */}
+</>
 
   );
 }

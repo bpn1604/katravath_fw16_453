@@ -1,31 +1,35 @@
 import React from 'react'
-import { Carddiv } from '../components/CardStyled'
-import '../components/card.css'
+import { Carddiv, Card__number, Chipimg, Creditcardwrap, CreditExip } from '../components/CardStyled'
 function CreaditCard(props) {
-    
+   // console.log(props);
+const {name,number,year,month,cvv}=props
   return (
     <div>
-        <div className="credit-card-wrap">
-	<div className="mk-icon-world-map"></div>
-	<div className="credit-card-inner">
-		<header className="header">
-			<div className="credit-logo">
-				<div className="shape"><span className="txt"></span></div> <span className="text">Public Bank of Nepal</span>
-			</div>
-		</header>
-		<div className="mk-icon-sim"></div>
-		<div className="credit-font credit-card-number" data-text="4716">4716 6109 5211 3010</div>
-		<footer className="footer">
-			<div className="clearfix">
-				<div className="pull-left">
-					<div className="credit-card-date"><span className="title">Expires End</span><span className="credit-font">01/018</span></div>
-					<div className="credit-font credit-author">MOHAN KHADKA</div>
-				</div>
-				<div className="pull-right"><div className="mk-icon-visa"></div></div>
-			</div>
-		</footer>
-	</div>
+        <Creditcardwrap>
+        <header         >
+                <Card__number>Visa</Card__number>
+  <Chipimg src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHzRrjPsvrA2b9XFdtR7ur4Bu2pIy5Se_IXg&usqp=CAU"/>
+
+</header>
+
+<div>
+     <div>
+    <Card__number>{number}</Card__number>
+    <CreditExip>
+     
+    <div><h4>CARD HOLDER</h4><p>{name}</p></div>
+    <div><h4>EXPRI</h4><p>{month}/{year}</p> </div>
+    <div><h4>CVC</h4><p>{cvv}</p></div>
+   
+  </CreditExip>
+    
+   
+  </div>
+  
 </div>
+
+
+</Creditcardwrap>
     </div>
   )
 }
