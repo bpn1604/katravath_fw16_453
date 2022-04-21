@@ -6,6 +6,7 @@ import { Border } from './components/Border.styled';
 import CardForm from './day-1/CardForm';
 import CreaditCard from './day-1/CreaditCard';
 import { Bdiv } from './components/CardStyled';
+import ButtonStyledCom from './day-1/ButtonStyledCom';
 
 function App() {
   // const [theme,toggleTheme]=useContext(ThemeContext)
@@ -22,8 +23,8 @@ function App() {
   //  </Border>
   //  </>
 <>
-
-<CardForm />
+<ButtonStyledCom />
+{/* <CardForm /> */}
 </>
 
   );
