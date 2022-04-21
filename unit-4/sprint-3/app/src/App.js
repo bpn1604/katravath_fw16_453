@@ -4,9 +4,11 @@ import { useContext } from 'react';
 import { ThemeContext } from './day-2/ThemeProvider';
 import { Border } from './components/Border.styled';
 import CardForm from './day-1/CardForm';
+import CreaditCard from './day-1/CreaditCard';
+import { Bdiv } from './components/CardStyled';
 
 function App() {
-  const [theme,toggleTheme]=useContext(ThemeContext)
+  // const [theme,toggleTheme]=useContext(ThemeContext)
   return (
   //  <>
   //   <div >
@@ -19,8 +21,11 @@ function App() {
      
   //  </Border>
   //  </>
+{/* <Bdiv>
+  <CreaditCard />
+<CardForm />
+</Bdiv> */}
 
-  <CardForm />
   );
 }
 

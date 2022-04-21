@@ -19,7 +19,7 @@ function AppendInTable() {
              setfrom(forDa);
           } catch (e) {
             console.log(e);
-          }
+          }[]
         };
         func();
       }, []);
