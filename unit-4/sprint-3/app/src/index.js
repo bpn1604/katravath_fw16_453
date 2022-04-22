@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createRoot } from 'react-dom/client';
 import { ThemeProvider } from './day-2/ThemeProvider';
+import { ToggleProvider } from './day-3/ToggleProvider';
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
 
-<ThemeProvider>
+<ToggleProvider>
 <App tab="home" />
-</ThemeProvider>
+</ToggleProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

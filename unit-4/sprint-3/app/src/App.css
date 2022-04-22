@@ -1,6 +1,7 @@
 .App
 {
-  width: 100%;
+  width: 70%;
   height: 500px;
 
+border: 2px solid red;
 }
