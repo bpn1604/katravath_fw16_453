@@ -17,7 +17,7 @@ function App() {
    <>
   
   
-   <Border color={theme} className="App">
+   {/* <Border color={theme} className="App">
 
    {theme}:<Button onClick={toggleTheme} variant="solid">Button</Button>
  
@@ -29,9 +29,9 @@ function App() {
     
      <Switch />
 
-   </Border>
+   </Border> */}
 {/* <ButtonStyledCom /> */}
-{/* <CardForm /> */}
+<CardForm />
 </>
 
   );

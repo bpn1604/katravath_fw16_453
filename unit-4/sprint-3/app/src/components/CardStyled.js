@@ -59,6 +59,7 @@ line-height: 30px;
 `
 export const Chipimg=styled.img`
 margin-left: 40px;
+positin:abosult;
 width:50px;
 height:40px;
 border-radius: 5px;
